@@ -3,49 +3,64 @@ module github.com/matthewmueller/apex
 go 1.17
 
 require (
-	github.com/Unknwon/goconfig v0.0.0-20161121224340-87a46d97951e
-	github.com/apex/log v1.0.0
-	github.com/aws/aws-sdk-go v1.13.52
+	github.com/Unknwon/goconfig v0.0.0-20200908083735-df7de6a44db8
+	github.com/apex/log v1.9.0
+	github.com/aws/aws-sdk-go v1.42.0
 	github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59
-	github.com/buger/goterm v0.0.0-20180423150900-6d19e6a8df12
-	github.com/c4milo/unpackit v0.0.0-20170704181138-4ed373e9ef1c
-	github.com/davecgh/go-spew v1.1.0
-	github.com/dsnet/compress v0.0.0-20171208185109-cc9eb1d7ad76
-	github.com/dustin/go-humanize v0.0.0-20171012181109-77ed807830b4
-	github.com/go-ini/ini v1.28.2
-	github.com/golang-commonmark/markdown v0.0.0-20170722161535-11a7a839e723
-	github.com/golang/mock v1.0.0
-	github.com/google/go-github v0.0.0-20171013030541-0f6d3ce15ec2
-	github.com/google/go-querystring v0.0.0-20170111101155-53e6ce116135
-	github.com/howeyc/gopass v0.0.0-20170109162249-bf9dde6d0d2c
-	github.com/inconshreveable/mousetrap v1.0.0
-	github.com/jmespath/go-jmespath v0.0.0-20160202185014-0b12d6b521d8
-	github.com/klauspost/compress v1.2.1
-	github.com/klauspost/cpuid v0.0.0-20170728055534-ae7887de9fa5
-	github.com/klauspost/crc32 v0.0.0-20161016154125-cb6bfca970f6
-	github.com/klauspost/pgzip v0.0.0-20170402124221-0bf5dcad4ada
-	github.com/mattn/go-isatty v0.0.3
-	github.com/mitchellh/go-homedir v0.0.0-20161203194507-b8bc1bf76747
-	github.com/mitchellh/go-wordwrap v0.0.0-20150314170334-ad45545899c7
-	github.com/opennota/urlesc v0.0.0-20170810143723-de5bf2ad4578
-	github.com/pascaldekloe/name v0.0.0-20180407135147-b20a4701460b
-	github.com/pkg/errors v0.8.0
-	github.com/pmezard/go-difflib v1.0.0
+	github.com/dustin/go-humanize v1.0.0
+	github.com/golang-commonmark/markdown v0.0.0-20180910011815-a8f139058164
+	github.com/golang/mock v1.6.0
+	github.com/mattn/go-isatty v0.0.14
+	github.com/mitchellh/go-homedir v1.1.0
+	github.com/mitchellh/go-wordwrap v1.0.1
+	github.com/pascaldekloe/name v1.0.1
+	github.com/pkg/errors v0.9.1
 	github.com/rliebling/gitignorer v1.0.1
-	github.com/stretchr/testify v1.1.4
-	github.com/tj/assert v0.0.0-20171129193455-018094318fb0
+	github.com/stretchr/testify v1.7.0
+	github.com/tj/assert v0.0.3
 	github.com/tj/backoff v1.0.0
 	github.com/tj/cobra v0.0.0-20160702192511-5e2db986a612
-	github.com/tj/go v1.8.4
-	github.com/tj/go-progress v0.0.0-20180508172012-fadc638a53dd
+	github.com/tj/go v1.8.7
+	github.com/tj/go-progress v0.0.0-20200222111227-c485e791f8d6
 	github.com/tj/go-prompt v1.3.0
-	github.com/tj/go-sync v0.0.0-20160119181431-8448302468e8
-	github.com/tj/go-update v2.2.1+incompatible
+	github.com/tj/go-sync v0.0.0-20210318114614-b271b0b4f1c7
+	github.com/tj/go-update v2.2.4+incompatible
 	github.com/tj/pflag v0.0.0-20160702191705-e367e44eec04
-	github.com/ulikunitz/xz v0.5.4
-	golang.org/x/crypto v0.0.0-20170930174604-9419663f5a44
-	golang.org/x/net v0.0.0-20180519122554-57065200b4b0
-	golang.org/x/sys v0.0.0-20171012164349-43eea11bc926
-	golang.org/x/text v0.3.0
-	gopkg.in/validator.v2 v2.0.0-20170814132753-460c83432a98
+	golang.org/x/net v0.0.0-20211108170745-6635138e15ea
+	gopkg.in/validator.v2 v2.0.0-20210331031555-b37d688a7fb0
+)
+
+require (
+	github.com/buger/goterm v0.0.0-20181115115552-c206103e1f37 // indirect
+	github.com/c4milo/unpackit v0.1.0 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/dsnet/compress v0.0.1 // indirect
+	github.com/fatih/color v1.7.0 // indirect
+	github.com/golang-commonmark/html v0.0.0-20180910111043-7d7c804e1d46 // indirect
+	github.com/golang-commonmark/linkify v0.0.0-20180910111149-f05efb453a0e // indirect
+	github.com/golang-commonmark/mdurl v0.0.0-20180910110917-8d018c6567d6 // indirect
+	github.com/golang-commonmark/puny v0.0.0-20180910110745-050be392d8b8 // indirect
+	github.com/google/go-github v17.0.0+incompatible // indirect
+	github.com/google/go-querystring v1.1.0 // indirect
+	github.com/gosuri/uilive v0.0.4 // indirect
+	github.com/gosuri/uiprogress v0.0.1 // indirect
+	github.com/howeyc/gopass v0.0.0-20210920133722-c8aef6fb66ef // indirect
+	github.com/inconshreveable/mousetrap v1.0.0 // indirect
+	github.com/jmespath/go-jmespath v0.4.0 // indirect
+	github.com/klauspost/compress v1.4.1 // indirect
+	github.com/klauspost/cpuid v1.2.0 // indirect
+	github.com/klauspost/pgzip v1.2.5 // indirect
+	github.com/mattn/go-colorable v0.1.2 // indirect
+	github.com/opennota/wd v0.0.0-20180911144301-b446539ab1e7 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/russross/blackfriday v1.6.0 // indirect
+	github.com/smartystreets/goconvey v1.7.2 // indirect
+	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/ulikunitz/xz v0.5.10 // indirect
+	golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550 // indirect
+	golang.org/x/mod v0.4.2 // indirect
+	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
+	golang.org/x/tools v0.1.1 // indirect
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	gopkg.in/yaml.v3 v3.0.0-20200605160147-a5ece683394c // indirect
 )
