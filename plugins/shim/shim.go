@@ -3,9 +3,9 @@
 package shim
 
 import (
-	"github.com/apex/apex/archive"
-	"github.com/apex/apex/function"
-	"github.com/apex/apex/shim"
+	"github.com/matthewmueller/apex/archive"
+	"github.com/matthewmueller/apex/function"
+	"github.com/matthewmueller/apex/shim"
 )
 
 func init() {

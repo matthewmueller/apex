@@ -11,7 +11,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/iam/iamiface"
 	"github.com/tj/go-prompt"
 
-	"github.com/apex/apex/boot/boilerplate"
+	"github.com/matthewmueller/apex/boot/boilerplate"
 )
 
 // TODO(tj): attempt creation of S3 bucket to streamline that as well

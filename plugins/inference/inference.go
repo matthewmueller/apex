@@ -5,12 +5,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/apex/apex/function"
-	"github.com/apex/apex/plugins/golang"
-	"github.com/apex/apex/plugins/java"
-	"github.com/apex/apex/plugins/nodejs"
-	"github.com/apex/apex/plugins/python"
-	"github.com/apex/apex/plugins/ruby"
+	"github.com/matthewmueller/apex/function"
+	"github.com/matthewmueller/apex/plugins/golang"
+	"github.com/matthewmueller/apex/plugins/java"
+	"github.com/matthewmueller/apex/plugins/nodejs"
+	"github.com/matthewmueller/apex/plugins/python"
+	"github.com/matthewmueller/apex/plugins/ruby"
 )
 
 func init() {

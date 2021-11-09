@@ -16,12 +16,12 @@ import (
 	"github.com/tj/go-sync/semaphore"
 	"gopkg.in/validator.v2"
 
-	"github.com/apex/apex/function"
-	"github.com/apex/apex/hooks"
-	"github.com/apex/apex/infra"
-	"github.com/apex/apex/service"
-	"github.com/apex/apex/utils"
-	"github.com/apex/apex/vpc"
+	"github.com/matthewmueller/apex/function"
+	"github.com/matthewmueller/apex/hooks"
+	"github.com/matthewmueller/apex/infra"
+	"github.com/matthewmueller/apex/service"
+	"github.com/matthewmueller/apex/utils"
+	"github.com/matthewmueller/apex/vpc"
 	"github.com/aws/aws-sdk-go/aws"
 )
 

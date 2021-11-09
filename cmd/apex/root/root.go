@@ -9,9 +9,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/tj/cobra"
 
-	"github.com/apex/apex/project"
-	"github.com/apex/apex/service"
-	"github.com/apex/apex/utils"
+	"github.com/matthewmueller/apex/project"
+	"github.com/matthewmueller/apex/service"
+	"github.com/matthewmueller/apex/utils"
 )
 
 // environment for project.

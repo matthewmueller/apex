@@ -10,10 +10,10 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/tj/cobra"
 
-	"github.com/apex/apex/cmd/apex/root"
-	"github.com/apex/apex/colors"
-	"github.com/apex/apex/cost"
-	"github.com/apex/apex/metrics"
+	"github.com/matthewmueller/apex/cmd/apex/root"
+	"github.com/matthewmueller/apex/colors"
+	"github.com/matthewmueller/apex/cost"
+	"github.com/matthewmueller/apex/metrics"
 )
 
 // duration of results.

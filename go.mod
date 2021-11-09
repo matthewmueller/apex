@@ -1,4 +1,4 @@
-module github.com/apex/apex
+module github.com/matthewmueller/apex
 
 require (
 	github.com/Unknwon/goconfig v0.0.0-20161121224340-87a46d97951e
