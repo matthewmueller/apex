@@ -13,7 +13,7 @@ func init() {
 
 const (
 	// Runtime for inference.
-	Runtime = "go1.x"
+	Runtime = "provided.al2"
 )
 
 // Plugin implementation.
@@ -21,7 +21,7 @@ type Plugin struct{}
 
 // Open adds the shim and golang defaults.
 func (p *Plugin) Open(fn *function.Function) error {
-	if !strings.HasPrefix(fn.Runtime, "go") {
+	if !strings.HasPrefix(fn.Runtime, "provided.al2") {
 		return nil
 	}
 
@@ -30,15 +30,15 @@ func (p *Plugin) Open(fn *function.Function) error {
 	}
 
 	if fn.Hooks.Build == "" {
-		fn.Hooks.Build = "GOOS=linux GOARCH=amd64 go build -o main *.go"
+		fn.Hooks.Build = "GOOS=linux GOARCH=amd64 go build -tags lambda.norpc -o bootstrap *.go"
 	}
 
 	if fn.Handler == "" {
-		fn.Handler = "main"
+		fn.Handler = "bootstrap"
 	}
 
 	if fn.Hooks.Clean == "" {
-		fn.Hooks.Clean = "rm -f main"
+		fn.Hooks.Clean = "rm -f bootstrap"
 	}
 
 	return nil
